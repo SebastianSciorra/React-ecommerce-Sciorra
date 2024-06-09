@@ -1,10 +1,10 @@
 const products = [
     {
         id: '1',
-        name: 'cuaderno',
+        name: 'Cuaderno',
         price: 100,
         category: 'Cuadernos',
-        img: 'https://www.shutterstock.com/image-photo/notebooks-cover-binder-260nw-248239657.jpg',
+        img: 'https://st.depositphotos.com/1875497/3781/i/450/depositphotos_37810929-stock-photo-books-on-white.jpg',
         stock: 20,
         description: 'cuaderno chico'
     },
