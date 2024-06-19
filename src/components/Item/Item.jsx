@@ -4,6 +4,7 @@ import styles from './Item.module.css';
 const Item = ({id, name, img, price, stock}) => {
 
     return (
+      <div className={styles.cardContainer}>
         <article className={styles.cardItem}>
           <header className={styles.header}>
             <h2>{name}</h2>
@@ -19,6 +20,7 @@ const Item = ({id, name, img, price, stock}) => {
             <Link to={`/item/${id}`} className={styles.option}>Ver detalle</Link>
           </footer>
         </article>
+      </div>
       );
     };
 
