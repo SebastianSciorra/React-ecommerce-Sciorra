@@ -1,0 +1,42 @@
+.CardItemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.CardItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 400px; 
+    height: 500px; 
+  }
+  
+  .ItemImg {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 4px;
+  }
+  
+  .Header {
+    margin-bottom: 16px;
+  }
+   
+  .Info {
+    margin: 8px 0;
+  }
+
+  .Option {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 4px;
+    cursor: pointer;
+  }
